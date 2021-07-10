@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="my, my life and what gets me through it" />
+        <meta name="author" content="paddy" />
+        <title>thisispaddys.space - gallery</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/gallery.css" rel="stylesheet" />
+    </head>
+ 
+    <body>
+        <h1 class="heading">Gallery</h1>
+        <!--work gallery-->
+        <h2>Work</h2>
+            <section id="carousel">
+              <div class="cycleButton cycleButtonL" onClick="rotate.left()"><</div>
+              <div class="cycleButton cycleButtonR" onClick="rotate.right()">></div>
+              <div id="carouselIndicators">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" data-card="glacier" id="indicator1" onclick="rotate.indicatorClick(this)">
+                  <circle fill="#fff" stroke="#fff" stroke-width="3" cx="7.5" cy="7.5" r="6"/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" data-card="wheat" id="indicator2" onclick="rotate.indicatorClick(this)">
+                  <circle fill="transparent" stroke="#fff" stroke-width="3" cx="7.5" cy="7.5" r="6"/>
+                </svg>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" data-card="market" id="indicator3" onclick="rotate.indicatorClick(this)">
+                  <circle fill="transparent" stroke="#fff" stroke-width="3" cx="7.5" cy="7.5" r="6"/>
+                </svg>
+              </div>
+            </section>
+            <!-- the lightbox div is not displayed by default, but it appears
+                 when the user clicks on the front-most card. It covers the
+                 viewport in black with an alpha channel set to 70% opacity
+                 and displays the entire requested image centered in the viewport.
+                 Clicking anywhere in the viewport while it is displayed sets
+                 its display property back to "none", revealing the cards below -->
+            <!-- OPTIONAL: a white X representing a close box, or instructions
+                 on how to close the lightbox could go inside this div. I opted
+                 not to do that since a zoom-out cursor appears  over the lightbox
+                 on a computer, but an element indicating how to exit the lightbox
+                 would be helpful for mobile/touchscreen users -->
+            <div id="lightbox" onclick="rotate.unzoom()"></div>
+            <!--work end-->
+        <script src="/js/gallery.js"></script>
+    </body>
+</html>
