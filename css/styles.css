@@ -11268,3 +11268,8 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.gallery_link{
+  color: var(--bs-white); 
+  
+}
