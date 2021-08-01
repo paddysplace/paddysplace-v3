@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Book List | Fairy</title>
+</head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        
+        
+    <h1>Fairy Books</h1>
+        <table id="userdata">            
+                <th>Title</th>
+                <th>Link</th>     
+        </table>
+    <script>
+            var data = {
+                
+     "books": [
+      {
+       "title": "The Orange Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/3027"
+      },
+      {
+       "title": "The Yellow Fairy Book by Andrew Lang and H. J. Ford",
+       "link": "href=http://www.gutenberg.org/ebooks/28314"
+      },
+      {
+       "title": "The Grey Fairy Book by Andrew Lang and H. J. Ford",
+       "link": "href=http://www.gutenberg.org/ebooks/33547"
+      },
+      {
+       "title": "The Lilac Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/28096"
+      },
+      {
+       "title": "The Blue Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/503"
+      },
+      {
+       "title": "The Red Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/540"
+      },
+      {
+       "title": "The Violet Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/641"
+      },
+      {
+       "title": "The Green Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/7277"
+      },
+      {
+       "title": "The Pink Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/5615"
+      },
+      {
+       "title": "The Crimson Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/2435"
+      },
+      {
+       "title": "The Olive Fairy Book by Andrew Lang and H. J. Ford",
+       "link": "href=http://www.gutenberg.org/ebooks/27826"
+      },
+      {
+       "title": "The Brown Fairy Book by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/3282"
+      },
+      {
+       "title": "Grimms' Fairy Tales by Jacob Grimm and Wilhelm Grimm",
+       "link": "href=http://www.gutenberg.org/ebooks/2591"
+      },
+      {
+       "title": "Andersen's Fairy Tales by H. C. Andersen",
+       "link": "href=http://www.gutenberg.org/ebooks/1597"
+      },
+      {
+       "title": "The Arabian Nights Entertainments by Andrew Lang",
+       "link": "href=http://www.gutenberg.org/ebooks/128"
+      },
+      {
+       "title": "The Arabian Nights Entertainments by Anonymous",
+       "link": "href=http://www.gutenberg.org/ebooks/19860"
+      },
+      {
+       "title": "Fairy Tales of Hans Christian Andersen by H. C. Andersen",
+       "link": "href=http://www.gutenberg.org/ebooks/27200"
+      },
+      {
+       "title": "English Fairy Tales by Joseph Jacobs",
+       "link": "href=http://www.gutenberg.org/ebooks/7439"
+      },
+      {
+       "title": "The Animal Story Book by Andrew Lang and H. J. Ford",
+       "link": "href=http://www.gutenberg.org/ebooks/38208"
+      },
+      {
+       "title": "More Fables by George Ade",
+       "link": "href=http://www.gutenberg.org/ebooks/11930"
+      },
+      {
+       "title": "The Green Forest Fairy Book by Loretta Ellen Brady",
+       "link": "href=http://www.gutenberg.org/ebooks/35458"
+      },
+      {
+       "title": "Deccan Nursery Tales; or, Fairy Tales from the South by C. A. Kincaid",
+       "link": "href=http://www.gutenberg.org/ebooks/11167"
+      },
+      {
+       "title": "The Arabian Nights: Their Best-known Tales by Smith, Wiggin, and Parrish",
+       "link": "href=http://www.gutenberg.org/ebooks/20916"
+      },
+      {
+       "title": "Irish Fairy Tales by James Stephens",
+       "link": "href=http://www.gutenberg.org/ebooks/2892"
+      },
+      {
+       "title": "Russian Fairy Tales: A Choice Collection of Muscovite Folk-lore by Ralston",
+       "link": "href=http://www.gutenberg.org/ebooks/22373"
+      },
+      {
+       "title": "Childhood's Favorites and Fairy Stories by Forbush, Hale, and Mabie",
+       "link": "href=http://www.gutenberg.org/ebooks/19993"
+      },
+      {
+       "title": "Manx Fairy Tales by Sophia Morrison",
+       "link": "href=http://www.gutenberg.org/ebooks/51762"
+      },
+      {
+       "title": "American Fairy Tales by L. Frank Baum",
+       "link": "href=http://www.gutenberg.org/ebooks/4357"
+      },
+      {
+       "title": "Fairy and Folk Tales of the Irish Peasantry by W. B. Yeats",
+       "link": "href=http://www.gutenberg.org/ebooks/33887"
+      },
+      {
+       "title": "Irish Wonders by D. R. McAnally",
+       "link": "href=http://www.gutenberg.org/ebooks/19486"
+      },
+      {
+       "title": "Indian Fairy Tales by Joseph Jacobs and John Dickson Batten",
+       "link": "href=http://www.gutenberg.org/ebooks/7128"
+      },
+      {
+       "title": "Favorite Fairy Tales by Logan Marshall",
+       "link": "href=http://www.gutenberg.org/ebooks/20748"
+      },
+      {
+       "title": "A Chinese Wonder Book by Norman Hinsdale Pitman",
+       "link": "href=http://www.gutenberg.org/ebooks/18674"
+      },
+      {
+       "title": "Sindbad the Sailor, & Other Stories from the Arabian Nights by Anonymous",
+       "link": "href=http://www.gutenberg.org/ebooks/47285"
+      },
+      {
+       "title": "Fairy Tales Every Child Should Know by Hamilton Wright Mabie",
+       "link": "href=http://www.gutenberg.org/ebooks/14916"
+      },
+      {
+       "title": "Rootabaga Stories by Carl Sandburg",
+       "link": "href=http://www.gutenberg.org/ebooks/27085"
+      },
+      {
+       "title": "Fairy Tales from the Arabian Nights by E. Dixon",
+       "link": "href=http://www.gutenberg.org/ebooks/8599"
+      },
+      {
+       "title": "The Chinese Fairy Book by Richard Wilhelm",
+       "link": "href=http://www.gutenberg.org/ebooks/29939"
+      },
+      {
+       "title": "Tales of Passed Times by Charles Perrault",
+       "link": "href=http://www.gutenberg.org/ebooks/33511"
+      },
+      {
+       "title": "Stories the Iroquois Tell Their Children by Mabel Powers",
+       "link": "href=http://www.gutenberg.org/ebooks/22096"
+      },
+      {
+       "title": "The Golden Maiden, and other folk tales and fairy stories told in Armenia",
+       "link": "href=http://www.gutenberg.org/ebooks/46944"
+      },
+      {
+       "title": "Flower Fables by Louisa May Alcott",
+       "link": "href=http://www.gutenberg.org/ebooks/163"
+      },
+      {
+       "title": "Japanese Fairy Tales by Grace James",
+       "link": "href=http://www.gutenberg.org/ebooks/35853"
+      },
+      {
+       "title": "Old Deccan Days; or, Hindoo Fairy Legends Current in Southern India by Mary Frere et al.",
+       "link": "href=http://www.gutenberg.org/ebooks/36696"
+      },
+      {
+       "title": "English Fairy Tales by Flora Annie Webster Steel",
+       "link": "href=http://www.gutenberg.org/ebooks/17034"
+      },
+      {
+       "title": "Four and Twenty Fairy Tales by Charlotte Rose de Caumont de La Force et al.",
+       "link": "href=http://www.gutenberg.org/ebooks/52719"
+      },
+      {
+       "title": "More English Fairy Tales by Joseph Jacobs and John Dickson Batten",
+       "link": "href=http://www.gutenberg.org/ebooks/14241"
+      },
+      {
+       "title": "The Cat and the Mouse: A Book of Persian Fairy Tales by James and Neill",
+       "link": "href=http://www.gutenberg.org/ebooks/24473"
+      },
+      {
+       "title": "Celtic Folk and Fairy Tales by Joseph Jacobs and John Dickson Batten",
+       "link": "href=http://www.gutenberg.org/ebooks/35862"
+      },
+      {
+       "title": "The Irish Fairy Book by Alfred Perceval Graves and George Denham",
+       "link": "href=http://www.gutenberg.org/ebooks/32202"
+      },
+      {
+       "title": "Mother's Nursery Tales by Katharine Pyle",
+       "link": "href=http://www.gutenberg.org/ebooks/49001"
+      },
+      {
+       "title": "Celtic Fairy Tales by Joseph Jacobs",
+       "link": "href=http://www.gutenberg.org/ebooks/7885"
+      },
+      {
+       "title": "The Oriental Story Book: A Collection of Tales by Wilhelm Hauff",
+       "link": "href=http://www.gutenberg.org/ebooks/24593"
+      },
+      {
+       "title": "The Scottish Fairy Book by Elizabeth W. Grierson",
+       "link": "href=http://www.gutenberg.org/ebooks/37532"
+      },
+      {
+       "title": "My Book of Favourite Fairy Tales by Edric Vredenburg",
+       "link": "href=http://www.gutenberg.org/ebooks/15145"
+      },
+      {
+       "title": "The Junior Classics, Volume 1: Fairy and wonder tales by Eliot, Neilson, and Patten",
+       "link": "href=http://www.gutenberg.org/ebooks/3152"
+      },
+      {
+       "title": "The Book of Elves and Fairies for Story-Telling and Reading Aloud and for the Children's Own Reading by Frances Jenkins Olcott",
+       "link": "href=http://www.gutenberg.org/ebooks/56914"
+      },
+      {
+       "title": "Jewish Fairy Tales and Legends by Gertrude Landa",
+       "link": "href=http://www.gutenberg.org/ebooks/26711"
+      },
+      {
+       "title": "The Norwegian Fairy Book by Klara Stroebe",
+       "link": "href=http://www.gutenberg.org/ebooks/38070"
+      },
+      {
+       "title": "Old Peter's Russian Tales by Arthur Ransome",
+       "link": "href=http://www.gutenberg.org/ebooks/16981"
+      },
+      {
+       "title": "Welsh Fairy Tales by William Elliot Griffis",
+       "link": "href=http://www.gutenberg.org/ebooks/9368"
+      },
+      {
+       "title": "The Magic Ring and Other Stories by Andrew Lang and H. J. Ford",
+       "link": "href=http://www.gutenberg.org/ebooks/48032"
+      },
+      {
+       "title": "Goblin Tales of Lancashire by James Bowker",
+       "link": "href=http://www.gutenberg.org/ebooks/39712"
+      },
+      {
+       "title": "Irish Fairy Tales by W. B. Yeats and Jack Butler Yeats",
+       "link": "href=http://www.gutenberg.org/ebooks/31763"
+      },
+      {
+       "title": "Dutch Fairy Tales for Young Folks by William Elliot Griffis",
+       "link": "href=http://www.gutenberg.org/ebooks/7871"
+      },
+      {
+       "title": "Indian Fairy Tales by Ralston, Stokes, and Stokes",
+       "link": "href=http://www.gutenberg.org/ebooks/31209"
+      },
+      {
+       "title": "The Fairy Book by Dinah Maria Mulock Craik",
+       "link": "href=http://www.gutenberg.org/ebooks/19734"
+      },
+      {
+       "title": "The Swedish Fairy Book by Stroebe, Hood, and Martens",
+       "link": "href=http://www.gutenberg.org/ebooks/37193"
+      },
+      {
+       "title": "Fairy Tales of the Slav Peasants and Herdsmen by Alexander Chodzko",
+       "link": "href=http://www.gutenberg.org/ebooks/25555"
+      },
+      {
+       "title": "Wonder Tales from Many Lands by Katharine Pyle",
+       "link": "href=http://www.gutenberg.org/ebooks/48351"
+      },
+      {
+       "title": "Fairy Tales from Spain by José Muñoz Escámez",
+       "link": "href=http://www.gutenberg.org/ebooks/43212"
+      },
+      {
+       "title": "The Science of Fairy Tales by Edwin Sidney Hartland",
+       "link": "href=http://www.gutenberg.org/ebooks/24614"
+      },
+      {
+       "title": "Old French Fairy Tales by comtesse de Sophie Ségur",
+       "link": "href=http://www.gutenberg.org/ebooks/30129"
+      },
+      {
+       "title": "Europa's Fairy Book by Joseph Jacobs",
+       "link": "href=http://www.gutenberg.org/ebooks/26019"
+      },
+      {
+       "title": "The Old-Fashioned Fairy Book by Mrs. Burton Harrison",
+       "link": "href=http://www.gutenberg.org/ebooks/37348"
+      },
+      {
+       "title": "Russian Fairy Tales from the Skazki of Polevoi by P. Polevoi",
+       "link": "href=http://www.gutenberg.org/ebooks/34705"
+      },
+      {
+       "title": "Croatian Tales of Long Ago by Ivana Brlic-Mazuranic",
+       "link": "href=http://www.gutenberg.org/ebooks/60095"
+      },
+      {
+       "title": "The Arabian Nights Entertainments - Complete by Jonathan Scott",
+       "link": "href=http://www.gutenberg.org/ebooks/5668"
+      },
+      {
+       "title": "The Bee-Man of Orn and Other Fanciful Tales by Frank Richard Stockton",
+       "link": "href=http://www.gutenberg.org/ebooks/12067"
+      },
+      {
+       "title": "Edmund Dulac's Fairy-Book: Fairy Tales of the Allied Nations by Edmund Dulac",
+       "link": "href=http://www.gutenberg.org/ebooks/25513"
+      },
+      {
+       "title": "The Necklace of Princess Fiorimonde, and Other Stories by Mary De Morgan",
+       "link": "href=http://www.gutenberg.org/ebooks/38976"
+      },
+      {
+       "title": "Tales of Wonder Every Child Should Know by Smith and Wiggin",
+       "link": "href=http://www.gutenberg.org/ebooks/19461"
+      },
+      {
+       "title": "All the Way to Fairyland: Fairy Stories by Evelyn Sharp",
+       "link": "href=http://www.gutenberg.org/ebooks/30400"
+      },
+      {
+       "title": "More Celtic Fairy Tales by Joseph Jacobs and John Dickson Batten",
+       "link": "href=http://www.gutenberg.org/ebooks/34453"
+      },
+      {
+       "title": "Canadian Fairy Tales by Cyrus MacMillan",
+       "link": "href=http://www.gutenberg.org/ebooks/36241"
+      },
+      {
+       "title": "The Other Side of the Sun: Fairy Stories by Evelyn Sharp",
+       "link": "href=http://www.gutenberg.org/ebooks/40573"
+      },
+      {
+       "title": "Red Cap Tales, Stolen from the Treasure Chest of the Wizard of the North",
+       "link": "href=http://www.gutenberg.org/ebooks/22656"
+      },
+      {
+       "title": "American Indian Fairy Tales by W. T. Larned",
+       "link": "href=http://www.gutenberg.org/ebooks/45279"
+      },
+      {
+       "title": "Mighty Mikko: A Book of Finnish Fairy Tales and Folk Tales by Parker Fillmore",
+       "link": "href=http://www.gutenberg.org/ebooks/38112"
+      },
+      {
+       "title": "Fairy Legends and Traditions of the South of Ireland by Thomas Crofton Croker",
+       "link": "href=http://www.gutenberg.org/ebooks/39752"
+      },
+      {
+       "title": "Fairy Tales from Brazil: How and Why Tales from Brazilian Folk-Lore by Eells",
+       "link": "href=http://www.gutenberg.org/ebooks/24714"
+      },
+      {
+       "title": "The Shoemaker's Apron: A Second Book of Czechoslovak Fairy Tales and Folk Tales",
+       "link": "href=http://www.gutenberg.org/ebooks/33002"
+      },
+      {
+       "title": "Old-Fashioned Fairy Tales by Juliana Horatia Gatty Ewing",
+       "link": "href=http://www.gutenberg.org/ebooks/15592"
+      },
+      {
+       "title": "The Firelight Fairy Book by Henry Beston",
+       "link": "href=http://www.gutenberg.org/ebooks/19207"
+      },
+      {
+       "title": "Czechoslovak Fairy Tales by Parker Fillmore",
+       "link": "href=http://www.gutenberg.org/ebooks/32217"
+      },
+      {
+       "title": "The Diamond Fairy Book by Various",
+       "link": "href=http://www.gutenberg.org/ebooks/37995"
+      },
+      {
+       "title": "The Blue Rose Fairy Book by Maurice Baring",
+       "link": "href=http://www.gutenberg.org/ebooks/36008"
+      },
+      {
+       "title": "The Faery Queen and Her Knights: Stories Retold from Edmund Spenser by Church et al.",
+       "link": "href=http://www.gutenberg.org/ebooks/55765"
+      },
+      {
+       "title": "Welsh Fairy-Tales and Other Stories by P. H. Emerson",
+       "link": "href=http://www.gutenberg.org/ebooks/8675"
+      },
+      {
+       "title": "The Rainbow Book: Tales of Fun & Fancy by M. H. Spielmann",
+       "link": "href=http://www.gutenberg.org/ebooks/37455"
+      },
+      {
+       "title": "Fairy Tales from Many Lands by Katharine Pyle",
+       "link": "href=http://www.gutenberg.org/ebooks/47178"
+      },
+      {
+       "title": "Fairy Circles by Villamaria",
+       "link": "href=http://www.gutenberg.org/ebooks/39560"
+      },
+      {
+       "title": "Fairy Tales from the German Forests by Margaret Arndt",
+       "link": "href=http://www.gutenberg.org/ebooks/30834"
+      },
+      {
+       "title": "Stories of Enchantment by Jane Pentzer Myers",
+       "link": "href=http://www.gutenberg.org/ebooks/50931"
+      },
+      {
+       "title": "Child-Life in Japan and Japanese Child Stories by Matilda Chaplin Ayrton",
+       "link": "href=http://www.gutenberg.org/ebooks/28979"
+      },
+      {
+       "title": "Stories to Read or Tell from Fairy Tales and Folklore by Foucher and Budell",
+       "link": "href=http://www.gutenberg.org/ebooks/27467"
+      },
+      {
+       "title": "Artful Anticks by Oliver Herford",
+       "link": "href=http://www.gutenberg.org/ebooks/57325"
+      },
+      {
+       "title": "Fairy Realm: A Collection of the Favourite Old Tales Told in Verse by Tom Hood",
+       "link": "href=http://www.gutenberg.org/ebooks/44447"
+      },
+      {
+       "title": "The Fairy Godmothers and Other Tales by Mrs. Alfred Gatty",
+       "link": "href=http://www.gutenberg.org/ebooks/11319"
+      },
+      {
+       "title": "The Fairy Ring by Smith, Wiggin, and MacKinstry",
+       "link": "href=http://www.gutenberg.org/ebooks/40359"
+      },
+      {
+       "title": "Yellow-Cap and Other Fairy-Stories For Children by Julian Hawthorne",
+       "link": "href=http://www.gutenberg.org/ebooks/31795"
+      },
+      {
+       "title": "The Magic Bed: A Book of East Indian Fairy-Tales by James and Neill",
+       "link": "href=http://www.gutenberg.org/ebooks/37708"
+      },
+      {
+       "title": "Granny's Wonderful Chair & Its Tales of Fairy Times by Frances Browne",
+       "link": "href=http://www.gutenberg.org/ebooks/35820"
+      },
+      {
+       "title": "Fairies I Have Met by Mrs. Rodolph Stawell",
+       "link": "href=http://www.gutenberg.org/ebooks/38252"
+      },
+      {
+       "title": "Fairy Tales From all Nations by Anthony R. Montalba",
+       "link": "href=http://www.gutenberg.org/ebooks/34956"
+      }
+     ]
+    }
+        //$.getJSON("new4.json", function(data) {
+        // console.log(data);
+    
+        //$.getJSON('new4.json', function(data) {
+            $.each(data.books, function(i, books) {
+                var tblRow =    "<tr><td>" + books.title +
+                                "</td><td><a target='_blank' href='"+ books.link.split('href=')[1]+"' >"+books.link.split('href=')[1]+"</a></td></tr>"
+                $(tblRow).appendTo("#userdata tbody");
+            });
+            //});
+    </script>
+    
+</body>
+</html>

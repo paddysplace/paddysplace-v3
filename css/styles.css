@@ -11273,3 +11273,29 @@ body {
   color: var(--bs-white); 
   
 }
+
+table{
+  margin: 0 auto;
+}
+#userdata {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 80%;
+}
+
+#userdata td, #userdata th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#userdata tr:nth-child(even){background-color: #f2f2f2;}
+
+#userdata tr:hover {background-color: #ddd;}
+
+#userdata th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #04AA6D;
+color: white;
+}
