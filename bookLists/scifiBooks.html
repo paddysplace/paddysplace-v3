@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="my, my life and what gets me through it" />
+        <meta name="author" content="paddy" />
+        <title>thisispaddys.space | list/books</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <body>
+        <img src="https://res.cloudinary.com/paddysplace/image/upload/c_fill,h_400,w_1319/v1627840056/banners/thisispaddys.space-books_anxyge.png" alt="">
+        <div class="featured-text text-center text-lg-left">
+
+        <h2 class="text-black mb-4">Genre books</h2>
+        <h5 class="text-black mb-5">number of books</h5>
+        </div>
+        <table id="userdata">            
+                <th>Title</th>
+                <th>Link</th>     
+        </table>
+    <script>
+            var data = {
+                
+     "books": [{
+   "title": "Little Fuzzy by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18137"
+  },
+  {
+   "title": "The Edge of the Knife by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18584"
+  },
+  {
+   "title": "Omnilingual by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/19445"
+  },
+  {
+   "title": "Four-Day Planet by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/19478"
+  },
+  {
+   "title": "Uller Uprising by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/19474"
+  },
+  {
+   "title": "Naudsonce by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/19076"
+  },
+  {
+   "title": "Oomphel in the Sky by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/20649"
+  },
+  {
+   "title": "Graveyard of Dreams by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18109"
+  },
+  {
+   "title": "The Cosmic Computer by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/20727"
+  },
+  {
+   "title": "Space Viking by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/20728"
+  },
+  {
+   "title": "A Slave is a Slave by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/20726"
+  },
+  {
+   "title": "Ministry of Disturbance by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/20659"
+  },
+  {
+   "title": "The Keeper by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/19338"
+  },
+  {
+   "title": "Genesis by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18105"
+  },
+  {
+   "title": "He Walked Around the Horses by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18807"
+  },
+  {
+   "title": "Last Enemy by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18800"
+  },
+  {
+   "title": "Police Operation by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/19067"
+  },
+  {
+   "title": "Temple Trouble by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18861"
+  },
+  {
+   "title": "Time Crime by H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18151"
+  },
+  {
+   "title": "Lone Star Planet by John Joseph McGuire and H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/20121"
+  },
+  {
+   "title": "Null-ABC by John Joseph McGuire and H. Beam Piper",
+   "link": "href=http://www.gutenberg.org/ebooks/18346"
+  },
+  {
+   "title": "Flatland: A Romance of Many Dimensions by Edwin Abbott Abbott",
+   "link": "href=http://www.gutenberg.org/ebooks/97"
+  },
+  {
+   "title": "A Trace of Memory by Keith Laumer",
+   "link": "href=http://www.gutenberg.org/ebooks/51712"
+  },
+  {
+   "title": "The Forgotten Planet by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/41637"
+  },
+  {
+   "title": "The Mad Planet by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/35425"
+  },
+  {
+   "title": "This World Is Taboo by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/18172"
+  },
+  {
+   "title": "The Wailing Asteroid by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/50022"
+  },
+  {
+   "title": "Sand Doom by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/22467"
+  },
+  {
+   "title": "A Thousand Degrees Below Zero by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/50585"
+  },
+  {
+   "title": "Third Planet by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/52574"
+  },
+  {
+   "title": "Talents, Incorporated by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/23845"
+  },
+  {
+   "title": "Space Tug by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/18719"
+  },
+  {
+   "title": "Space Platform by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/25051"
+  },
+  {
+   "title": "The Silver Menace by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/50622"
+  },
+  {
+   "title": "The Sentimentalists by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/51102"
+  },
+  {
+   "title": "Scrimshaw by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/23791"
+  },
+  {
+   "title": "The Runaway Skyscraper by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/17355"
+  },
+  {
+   "title": "The Red Dust by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/41586"
+  },
+  {
+   "title": "Planet of Dread by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/43046"
+  },
+  {
+   "title": "The Pirates of Ersatz by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/24035"
+  },
+  {
+   "title": "Pariah Planet by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/29448"
+  },
+  {
+   "title": "Operation Terror by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/17870"
+  },
+  {
+   "title": "Operation: Outer Space by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/18361"
+  },
+  {
+   "title": "Nightmare Planet by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/42987"
+  },
+  {
+   "title": "The Machine That Saved The World by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/26174"
+  },
+  {
+   "title": "The Leader by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/23612"
+  },
+  {
+   "title": "If You Was a Moklin by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/51752"
+  },
+  {
+   "title": "Doctor by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/51782"
+  },
+  {
+   "title": "The Ambulance Made Two Trips by Murray Leinster",
+   "link": "href=http://www.gutenberg.org/ebooks/24149"
+  },
+  {
+   "title": "An Ounce of Cure by Alan Edward Nourse",
+   "link": "href=http://www.gutenberg.org/ebooks/22866"
+  },
+  {
+   "title": "Brightside Crossing by Alan Edward Nourse",
+   "link": "href=http://www.gutenberg.org/ebooks/49165"
+  },
+  {
+   "title": "The Jewels of Aptor by Samuel R. Delany",
+   "link": "href=http://www.gutenberg.org/ebooks/41981"
+  },
+  {
+   "title": "Captives of the Flame by Samuel R. Delany",
+   "link": "href=http://www.gutenberg.org/ebooks/41905"
+  },
+  {
+   "title": "Beyond Lies the Wub by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/28554"
+  },
+  {
+   "title": "Beyond the Door by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/28644"
+  },
+  {
+   "title": "The Crystal Crypt by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/28698"
+  },
+  {
+   "title": "The Defenders by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/28767"
+  },
+  {
+   "title": "The Eyes Have It by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/31516"
+  },
+  {
+   "title": "The Gun by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/29132"
+  },
+  {
+   "title": "Mr. Spaceship by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/32522"
+  },
+  {
+   "title": "Piper in the Woods by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/32832"
+  },
+  {
+   "title": "Second Variety by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/32032"
+  },
+  {
+   "title": "The Skull by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/30255"
+  },
+  {
+   "title": "Tony and the Beetles by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/40964"
+  },
+  {
+   "title": "The Variable Man by Philip K. Dick",
+   "link": "href=http://www.gutenberg.org/ebooks/32154"
+  },
+  {
+   "title": "Deathworld by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/28346"
+  },
+  {
+   "title": "The Misplaced Battleship by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/22541"
+  },
+  {
+   "title": "Planet of the Damned by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/21873"
+  },
+  {
+   "title": "Arm of the Law by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/29204"
+  },
+  {
+   "title": "The K-Factor by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/22540"
+  },
+  {
+   "title": "Navy Day by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/30019"
+  },
+  {
+   "title": "The Repairman by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/22073"
+  },
+  {
+   "title": "Toy Shop by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/22966"
+  },
+  {
+   "title": "The Velvet Glove by Harry Harrison",
+   "link": "href=http://www.gutenberg.org/ebooks/29471"
+  },
+  {
+   "title": "The Ego Machine by Henry Kuttner",
+   "link": "href=http://www.gutenberg.org/ebooks/32108"
+  },
+  {
+   "title": "The Day of the Boomer Dukes by Frederik Pohl",
+   "link": "href=http://www.gutenberg.org/ebooks/22559"
+  },
+  {
+   "title": "The Hated by Frederik Pohl",
+   "link": "href=http://www.gutenberg.org/ebooks/29503"
+  },
+  {
+   "title": "Plague of Pythons by Frederik Pohl",
+   "link": "href=http://www.gutenberg.org/ebooks/51804"
+  },
+  {
+   "title": "The Tunnel Under the World by Frederik Pohl",
+   "link": "href=http://www.gutenberg.org/ebooks/31979"
+  },
+  {
+   "title": "Gone Fishing by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/30140"
+  },
+  {
+   "title": "Ham Sandwich by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/30764"
+  },
+  {
+   "title": "An Incident on Route 12 by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/21897"
+  },
+  {
+   "title": "Legacy by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/21510"
+  },
+  {
+   "title": "Lion Loose by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/30493"
+  },
+  {
+   "title": "Novice by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/30458"
+  },
+  {
+   "title": "Oneness by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/30728"
+  },
+  {
+   "title": "The Other Likeness by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/30398"
+  },
+  {
+   "title": "The Star Hyacinths by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/26292"
+  },
+  {
+   "title": "Watch the Sky by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/24558"
+  },
+  {
+   "title": "The Winds of Time by James H. Schmitz",
+   "link": "href=http://www.gutenberg.org/ebooks/24395"
+  },
+  {
+   "title": "All Cats Are Gray by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/29019"
+  },
+  {
+   "title": "The Gifts of Asti by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/19029"
+  },
+  {
+   "title": "Plague Ship by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/16921"
+  },
+  {
+   "title": "Star Born by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/18458"
+  },
+  {
+   "title": "Star Hunter by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/19090"
+  },
+  {
+   "title": "Storm Over Warlock by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/20788"
+  },
+  {
+   "title": "Voodoo Planet by Andre Norton",
+   "link": "href=http://www.gutenberg.org/ebooks/18846"
+  },
+  {
+   "title": "The Great Dome on Mercury by Arthur Leo Zagat",
+   "link": "href=http://www.gutenberg.org/ebooks/29190"
+  },
+  {
+   "title": "When the Sleepers Woke by Arthur Leo Zagat",
+   "link": "href=http://www.gutenberg.org/ebooks/29322"
+  },
+  {
+   "title": "The Colors of Space by Marion Zimmer Bradley",
+   "link": "href=http://www.gutenberg.org/ebooks/20796"
+  },
+  {
+   "title": "The Door Through Space by Marion Zimmer Bradley",
+   "link": "href=http://www.gutenberg.org/ebooks/19726"
+  },
+  {
+   "title": "Falcons of Narabedla by Marion Zimmer Bradley",
+   "link": "href=http://www.gutenberg.org/ebooks/50566"
+  },
+  {
+   "title": "The Planet Savers by Marion Zimmer Bradley",
+   "link": "href=http://www.gutenberg.org/ebooks/31619"
+  },
+  {
+   "title": "Year of the Big Thaw by Marion Zimmer Bradley",
+   "link": "href=http://www.gutenberg.org/ebooks/28650"
+  },
+  {
+   "title": "The Barbarians by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/30828"
+  },
+  {
+   "title": "Citadel by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/26191"
+  },
+  {
+   "title": "Desire No More by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/40968"
+  },
+  {
+   "title": "The Rag and Bone Men by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/51589"
+  },
+  {
+   "title": "Riya's Foundling by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/34420"
+  },
+  {
+   "title": "The Stoker and the Stars by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/22967"
+  },
+  {
+   "title": "Wall of Crystal, Eye of Night by Algis Budrys",
+   "link": "href=http://www.gutenberg.org/ebooks/51726"
+  },
+  {
+   "title": "A Princess of Mars by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/62"
+  },
+  {
+   "title": "The Gods of Mars by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/64"
+  },
+  {
+   "title": "Warlord of Mars by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/68"
+  },
+  {
+   "title": "Thuvia, Maid of Mars by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/72"
+  },
+  {
+   "title": "The Chessmen of Mars by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/1153"
+  },
+  {
+   "title": "Pellucidar by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/605"
+  },
+  {
+   "title": "At the Earth's Core by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/123"
+  },
+  {
+   "title": "The Land That Time Forgot by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/551"
+  },
+  {
+   "title": "The People That Time Forgot by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/552"
+  },
+  {
+   "title": "Out of Time's Abyss by Edgar Rice Burroughs",
+   "link": "href=http://www.gutenberg.org/ebooks/553"
+  },
+  {
+   "title": "The Last Evolution by Jr. John W. Campbell",
+   "link": "href=http://www.gutenberg.org/ebooks/27462"
+  },
+  {
+   "title": "The Ultimate Weapon by Jr. John W. Campbell",
+   "link": "href=http://www.gutenberg.org/ebooks/23790"
+  },
+  {
+   "title": "Hot Planet by Hal Clement",
+   "link": "href=http://www.gutenberg.org/ebooks/50928"
+  },
+  {
+   "title": "A Honeymoon in Space by George Chetwynd Griffith",
+   "link": "href=http://www.gutenberg.org/ebooks/19476"
+  },
+  {
+   "title": "Missing Link by Frank Herbert",
+   "link": "href=http://www.gutenberg.org/ebooks/23210"
+  },
+  {
+   "title": "Old Rambling House by Frank Herbert",
+   "link": "href=http://www.gutenberg.org/ebooks/29492"
+  },
+  {
+   "title": "Operation Haystack by Frank Herbert",
+   "link": "href=http://www.gutenberg.org/ebooks/24721"
+  },
+  {
+   "title": "The Memory of Mars by Raymond F. Jones",
+   "link": "href=http://www.gutenberg.org/ebooks/26093"
+  },
+  {
+   "title": "A Stone and a Spear by Raymond F. Jones",
+   "link": "href=http://www.gutenberg.org/ebooks/51075"
+  },
+  {
+   "title": "The Alien by Raymond F. Jones",
+   "link": "href=http://www.gutenberg.org/ebooks/50783"
+  },
+  {
+   "title": "Cubs of the Wolf by Raymond F. Jones",
+   "link": "href=http://www.gutenberg.org/ebooks/22526"
+  },
+  {
+   "title": "The Great Gray Plague by Raymond F. Jones",
+   "link": "href=http://www.gutenberg.org/ebooks/28118"
+  },
+  {
+   "title": "The Adventurer by C. M. Kornbluth",
+   "link": "href=http://www.gutenberg.org/ebooks/29908"
+  },
+  {
+   "title": "The Altar at Midnight by C. M. Kornbluth",
+   "link": "href=http://www.gutenberg.org/ebooks/29619"
+  },
+  {
+   "title": "The Marching Morons by C. M. Kornbluth",
+   "link": "href=http://www.gutenberg.org/ebooks/51233"
+  },
+  {
+   "title": "Search the Sky by C. M. Kornbluth and Frederik Pohl",
+   "link": "href=http://www.gutenberg.org/ebooks/52228"
+  },
+  {
+   "title": "With These Hands by C. M. Kornbluth",
+   "link": "href=http://www.gutenberg.org/ebooks/51531"
+  },
+  {
+   "title": "A Columbus of Space by Garrett Putman Serviss",
+   "link": "href=http://www.gutenberg.org/ebooks/8673"
+  },
+  {
+   "title": "Curiosities of the Sky by Garrett Putman Serviss",
+   "link": "href=http://www.gutenberg.org/ebooks/6630"
+  },
+  {
+   "title": "Edison's Conquest of Mars by Garrett Putman Serviss",
+   "link": "href=http://www.gutenberg.org/ebooks/19141"
+  },
+  {
+   "title": "Birds of a Feather by Robert Silverberg",
+   "link": "href=http://www.gutenberg.org/ebooks/51361"
+  },
+  {
+   "title": "The Happy Unfortunate by Robert Silverberg",
+   "link": "href=http://www.gutenberg.org/ebooks/25035"
+  },
+  {
+   "title": "The Hunted Heroes by Robert Silverberg",
+   "link": "href=http://www.gutenberg.org/ebooks/25627"
+  },
+  {
+   "title": "Master of Life and Death by Robert Silverberg",
+   "link": "href=http://www.gutenberg.org/ebooks/50441"
+  },
+  {
+   "title": "Postmark Ganymede by Robert Silverberg",
+   "link": "href=http://www.gutenberg.org/ebooks/25629"
+  },
+  {
+   "title": "Starman's Quest by Robert Silverberg",
+   "link": "href=http://www.gutenberg.org/ebooks/27444"
+  },
+  {
+   "title": "First Lensman by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/49525"
+  },
+  {
+   "title": "The Galaxy Primes by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/20898"
+  },
+  {
+   "title": "Lord Tedric by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/49462"
+  },
+  {
+   "title": "Masters of Space by E. Everett Evans and E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/22754"
+  },
+  {
+   "title": "Spacehounds of IPC by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/20857"
+  },
+  {
+   "title": "The Skylark of Space by Lee Hawkins Garby and E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/20869"
+  },
+  {
+   "title": "Skylark Three by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/21051"
+  },
+  {
+   "title": "Subspace Survivors by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/21647"
+  },
+  {
+   "title": "Tedric by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/49651"
+  },
+  {
+   "title": "Triplanetary by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/32706"
+  },
+  {
+   "title": "The Vortex Blaster by E. E. Smith",
+   "link": "href=http://www.gutenberg.org/ebooks/22629"
+  },
+  {
+   "title": "The Man Who Rocked the Earth by Arthur Cheney Train and Robert Williams Wood",
+   "link": "href=http://www.gutenberg.org/ebooks/19174"
+  },
+  {
+   "title": "2 B R 0 2 B by Kurt Vonnegut",
+   "link": "href=http://www.gutenberg.org/ebooks/21279"
+  },
+  {
+   "title": "The Big Trip Up Yonder by Kurt Vonnegut",
+   "link": "href=http://www.gutenberg.org/ebooks/30240"
+  },
+  {
+   "title": "The Country of the Blind, and Other Stories by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/11870"
+  },
+  {
+   "title": "The Door in the Wall, and Other Stories by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/456"
+  },
+  {
+   "title": "The First Men in the Moon by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/1013"
+  },
+  {
+   "title": "The Food of the Gods and How It Came to Earth by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/11696"
+  },
+  {
+   "title": "The Island of Doctor Moreau by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/159"
+  },
+  {
+   "title": "The Stolen Bacillus and Other Incidents by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/12750"
+  },
+  {
+   "title": "Tales of Space and Time by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/27365"
+  },
+  {
+   "title": "The Time Machine by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/35"
+  },
+  {
+   "title": "Twelve Stories and a Dream by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/1743"
+  },
+  {
+   "title": "The War of the Worlds by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/36"
+  },
+  {
+   "title": "When the Sleeper Wakes by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/775"
+  },
+  {
+   "title": "The World Set Free by H. G. Wells",
+   "link": "href=http://www.gutenberg.org/ebooks/1059"
+  },
+  {
+   "title": "One Against the Moon by Donald A. Wollheim",
+   "link": "href=http://www.gutenberg.org/ebooks/50713"
+  },
+  {
+   "title": "The Secret of the Ninth Planet by Donald A. Wollheim",
+   "link": "href=http://www.gutenberg.org/ebooks/33644"
+  },
+  {
+   "title": "The Cosmic Express by Jack Williamson",
+   "link": "href=http://www.gutenberg.org/ebooks/26066"
+  },
+  {
+   "title": "The Pygmy Planet by Jack Williamson",
+   "link": "href=http://www.gutenberg.org/ebooks/29177"
+  },
+  {
+   "title": "Salvage in Space by Jack Williamson",
+   "link": "href=http://www.gutenberg.org/ebooks/29283"
+  },
+  {
+   "title": "Astounding Stories of Super-Science January 1930 by Ray Cummings et al",
+   "link": "href=http://www.gutenberg.org/ebooks/41481"
+  },
+  {
+   "title": "Astounding Stories of Super-Science February 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/28617"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, March 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29607"
+  },
+  {
+   "title": "Astounding Stories of Super-Science April 1930 by Anthony Pelcher",
+   "link": "href=http://www.gutenberg.org/ebooks/29390"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, May, 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29809"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, June, 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29848"
+  },
+  {
+   "title": "Astounding Stories of Super-Science July 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29198"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, August 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29768"
+  },
+  {
+   "title": "Astounding Stories of Super-Science September 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29255"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, October, 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29882"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, November, 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/29919"
+  },
+  {
+   "title": "Astounding Stories of Super-Science, December 1930 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/30691"
+  },
+  {
+   "title": "Astounding Stories of Super-Science January 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/30177"
+  },
+  {
+   "title": "Astounding Stories, February, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/30124"
+  },
+  {
+   "title": "Astounding Stories, March, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/30166"
+  },
+  {
+   "title": "Astounding Stories, April, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/30452"
+  },
+  {
+   "title": "Astounding Stories, May, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/30532"
+  },
+  {
+   "title": "Astounding Stories, June, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/31893"
+  },
+  {
+   "title": "Astounding Stories, July, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/31168"
+  },
+  {
+   "title": "Astounding Stories, August, 1931 by Various",
+   "link": "href=http://www.gutenberg.org/ebooks/33016"
+  },
+  {
+   "title": "Youth by Isaac Asimov",
+   "link": "href=http://www.gutenberg.org/ebooks/31547"
+  },
+  {
+   "title": "The Blindman's World by Edward Bellamy",
+   "link": "href=http://www.gutenberg.org/ebooks/22701"
+  }
+     ]
+    }
+        //$.getJSON("new4.json", function(data) {
+        // console.log(data);
+    
+        //$.getJSON('new4.json', function(data) {
+            $.each(data.books, function(i, books) {
+                var tblRow =    "<tr><td>" + books.title +
+                                "</td><td><a target='_blank' href='"+ books.link.split('href=')[1]+"' >"+books.link.split('href=')[1]+"</a></td></tr>"
+                $(tblRow).appendTo("#userdata tbody");
+            });
+            //});
+    </script>
+     <!-- Footer-->
+     <footer class="footer bg-white small text-center text-black-50"><div class="container px-4 px-lg-5">Copyright &copy; thisispaddys.space 2021</div></footer>
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="../js/scripts.js"></script>
+     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     <!-- * *                               SB Forms JS                               * *-->
+     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<!-- VISA Tracking Code for www.thisispaddys.space --><script>(function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["a9c9e2c0-ee1b-11eb-b589-901b0edac50a"]={v:"0.3",s:"a9c9e2c0-ee1b-11eb-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagtitle("body")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["a9c9e2c0-ee1b-11eb-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=a9c9e2c0-ee1b-11eb-b589-901b0edac50a&v=")</script><!-- VISA Tracking Code for www.thisispaddys.space -->
+
+    
+</body>
+</html>

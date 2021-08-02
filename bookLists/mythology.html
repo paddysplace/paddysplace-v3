@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="my, my life and what gets me through it" />
+        <meta name="author" content="paddy" />
+        <title>thisispaddys.space | list/books</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <body>
+        <img src="https://res.cloudinary.com/paddysplace/image/upload/c_fill,h_400,w_1319/v1627840056/banners/thisispaddys.space-books_anxyge.png" alt="">
+        <div class="featured-text text-center text-lg-left">
+
+        <h2 class="text-black mb-4">Genre books</h2>
+        <h5 class="text-black mb-5">number of books</h5>
+        </div>
+        <table id="userdata">            
+                <th>Title</th>
+                <th>Link</th>     
+        </table>
+    <script>
+            var data = {
+                
+     "books": [
+  {
+   "title": "The Iliad by Homer",
+   "link": "href=http://www.gutenberg.org/ebooks/6130"
+  },
+  {
+   "title": "The Odyssey by Homer",
+   "link": "href=http://www.gutenberg.org/ebooks/1727"
+  },
+  {
+   "title": "Myths and Legends of Ancient Greece and Rome by E. M. Berens",
+   "link": "href=http://www.gutenberg.org/ebooks/22381"
+  },
+  {
+   "title": "Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone by Sophocles",
+   "link": "href=http://www.gutenberg.org/ebooks/31"
+  },
+  {
+   "title": "Myths of the Cherokee by James Mooney",
+   "link": "href=http://www.gutenberg.org/ebooks/45634"
+  },
+  {
+   "title": "Myths and Legends of China by E. T. C. Werner",
+   "link": "href=http://www.gutenberg.org/ebooks/15250"
+  },
+  {
+   "title": "Demonology and Devil-lore by Moncure Daniel Conway",
+   "link": "href=http://www.gutenberg.org/ebooks/40686"
+  },
+  {
+   "title": "1000 Mythological Characters Briefly Described by Edward Sylvester Ellis",
+   "link": "href=http://www.gutenberg.org/ebooks/42474"
+  },
+  {
+   "title": "Bulfinch's Mythology by Thomas Bulfinch",
+   "link": "href=http://www.gutenberg.org/ebooks/4928"
+  },
+  {
+   "title": "Myths of the Norsemen: From the Eddas and Sagas by H. A. Guerber",
+   "link": "href=http://www.gutenberg.org/ebooks/28497"
+  },
+  {
+   "title": "A Book of Myths by Jean Lang",
+   "link": "href=http://www.gutenberg.org/ebooks/22693"
+  },
+  {
+   "title": "Myths of Babylonia and Assyria by Donald A. Mackenzie",
+   "link": "href=http://www.gutenberg.org/ebooks/16653"
+  },
+  {
+   "title": "The Children of Odin: The Book of Northern Myths by Padraic Colum",
+   "link": "href=http://www.gutenberg.org/ebooks/24737"
+  },
+  {
+   "title": "Asgard Stories: Tales from Norse Mythology by Mabel H. Cummings and Mary H. Foster",
+   "link": "href=http://www.gutenberg.org/ebooks/37488"
+  },
+  {
+   "title": "The Age of Fable by Thomas Bulfinch",
+   "link": "href=http://www.gutenberg.org/ebooks/4925"
+  },
+  {
+   "title": "Myths & Legends of Japan by F. Hadland Davis",
+   "link": "href=http://www.gutenberg.org/ebooks/45723"
+  },
+  {
+   "title": "The Golden Fleece and The Heroes Who Lived Before Achilles by Padraic Colum",
+   "link": "href=http://www.gutenberg.org/ebooks/37881"
+  },
+  {
+   "title": "The Myths of the North American Indians by Lewis Spence",
+   "link": "href=http://www.gutenberg.org/ebooks/42390"
+  },
+  {
+   "title": "Wonder Stories: The Best Myths for Boys and Girls by Carolyn Sherwin Bailey",
+   "link": "href=http://www.gutenberg.org/ebooks/35704"
+  },
+  {
+   "title": "Tales of Troy and Greece by Andrew Lang",
+   "link": "href=http://www.gutenberg.org/ebooks/32326"
+  },
+  {
+   "title": "The Myths of Mexico & Peru by Lewis Spence",
+   "link": "href=http://www.gutenberg.org/ebooks/53080"
+  },
+  {
+   "title": "Legends of Norseland by Mara L. Pratt-Chadwick and A. Chase",
+   "link": "href=http://www.gutenberg.org/ebooks/48908"
+  },
+  {
+   "title": "In the Days of Giants: A Book of Norse Tales by Abbie Farwell Brown",
+   "link": "href=http://www.gutenberg.org/ebooks/44622"
+  },
+  {
+   "title": "British Goblins: Welsh Folk-lore, Fairy Mythology, Legends and Traditions by Sikes",
+   "link": "href=http://www.gutenberg.org/ebooks/34704"
+  },
+  {
+   "title": "American Hero-Myths: A Study in the Native Religions of the Western Continent",
+   "link": "href=http://www.gutenberg.org/ebooks/11029"
+  },
+  {
+   "title": "Modern Mythology by Andrew Lang",
+   "link": "href=http://www.gutenberg.org/ebooks/14576"
+  },
+  {
+   "title": "The Myth of Hiawatha, and Other Oral Legends, Mythologic and Allegoric, of the North American Indians",
+   "link": "href=http://www.gutenberg.org/ebooks/21620"
+  },
+  {
+   "title": "Japanese Fairy Tales by Yei Theodora Ozaki",
+   "link": "href=http://www.gutenberg.org/ebooks/4018"
+  },
+  {
+   "title": "Plant Lore, Legends, and Lyrics by Richard Folkard",
+   "link": "href=http://www.gutenberg.org/ebooks/44638"
+  },
+  {
+   "title": "Irish Fairy Tales by James Stephens",
+   "link": "href=http://www.gutenberg.org/ebooks/2892"
+  },
+  {
+   "title": "Russian Fairy Tales: A Choice Collection of Muscovite Folk-lore by Ralston",
+   "link": "href=http://www.gutenberg.org/ebooks/22373"
+  },
+  {
+   "title": "The Heroes; Or, Greek Fairy Tales for My Children by Charles Kingsley",
+   "link": "href=http://www.gutenberg.org/ebooks/677"
+  },
+  {
+   "title": "American Fairy Tales by L. Frank Baum",
+   "link": "href=http://www.gutenberg.org/ebooks/4357"
+  },
+  {
+   "title": "The Legends and Myths of Hawaii by David Kalakaua",
+   "link": "href=http://www.gutenberg.org/ebooks/56597"
+  },
+  {
+   "title": "The Ancient Irish Epic Tale Táin Bó Cúalnge by Joseph Dunn",
+   "link": "href=http://www.gutenberg.org/ebooks/16464"
+  },
+  {
+   "title": "Stories the Iroquois Tell Their Children by Mabel Powers",
+   "link": "href=http://www.gutenberg.org/ebooks/22096"
+  },
+  {
+   "title": "The Babylonian Legends of the Creation by Sir E. A. Wallis Budge",
+   "link": "href=http://www.gutenberg.org/ebooks/9914"
+  },
+  {
+   "title": "Myths and Legends of Ancient Egypt by Lewis Spence",
+   "link": "href=http://www.gutenberg.org/ebooks/43662"
+  },
+  {
+   "title": "The Fairy-Faith in Celtic Countries by W. Y. Evans-Wentz",
+   "link": "href=http://www.gutenberg.org/ebooks/34853"
+  },
+  {
+   "title": "Myths and Legends of the Great Plains by Katharine Berry Judson",
+   "link": "href=http://www.gutenberg.org/ebooks/22083"
+  },
+  {
+   "title": "Myths and Legends of Our Own Land — Complete by Charles M. Skinner",
+   "link": "href=http://www.gutenberg.org/ebooks/6615"
+  },
+  {
+   "title": "The Cat and the Mouse: A Book of Persian Fairy Tales by James and Neill",
+   "link": "href=http://www.gutenberg.org/ebooks/24473"
+  },
+  {
+   "title": "The Book of Nature Myths by Florence Holbrook",
+   "link": "href=http://www.gutenberg.org/ebooks/22420"
+  },
+  {
+   "title": "The Fairy Mythology by Thomas Keightley",
+   "link": "href=http://www.gutenberg.org/ebooks/41006"
+  },
+  {
+   "title": "Stories of Old Greece and Rome by Emilie K. Baker",
+   "link": "href=http://www.gutenberg.org/ebooks/45489"
+  },
+  {
+   "title": "My Book of Favourite Fairy Tales by Edric Vredenburg",
+   "link": "href=http://www.gutenberg.org/ebooks/15145"
+  },
+  {
+   "title": "Myths and Legends of All Nations by Logan Marshall",
+   "link": "href=http://www.gutenberg.org/ebooks/20740"
+  },
+  {
+   "title": "Folk Tales Every Child Should Know by Hamilton Wright Mabie",
+   "link": "href=http://www.gutenberg.org/ebooks/15164"
+  },
+  {
+   "title": "The Indian Fairy Book: From the Original Legends by Cornelius Mathews",
+   "link": "href=http://www.gutenberg.org/ebooks/22248"
+  },
+  {
+   "title": "Mythical Monsters by Charles Gould",
+   "link": "href=http://www.gutenberg.org/ebooks/40972"
+  },
+  {
+   "title": "Welsh Fairy Tales by William Elliot Griffis",
+   "link": "href=http://www.gutenberg.org/ebooks/9368"
+  },
+  {
+   "title": "Cinderella in the South: Twenty-Five South African Tales by Arthur Shearly Cripps",
+   "link": "href=http://www.gutenberg.org/ebooks/22886"
+  },
+  {
+   "title": "Indian Myth and Legend by Donald A. Mackenzie",
+   "link": "href=http://www.gutenberg.org/ebooks/47228"
+  },
+  {
+   "title": "Myths and Legends of the Sioux by Marie L. McLaughlin",
+   "link": "href=http://www.gutenberg.org/ebooks/341"
+  },
+  {
+   "title": "The Heroes of Asgard: Tales from Scandinavian Mythology by Keary and Keary",
+   "link": "href=http://www.gutenberg.org/ebooks/41283"
+  },
+  {
+   "title": "The Unwritten Literature of the Hopi by Hattie Greene Lockett",
+   "link": "href=http://www.gutenberg.org/ebooks/15888"
+  },
+  {
+   "title": "Old-World Japan: Legends of the Land of the Gods by Frank Rinder",
+   "link": "href=http://www.gutenberg.org/ebooks/46863"
+  },
+  {
+   "title": "The High Deeds of Finn and other Bardic Romances of Ancient Ireland by Rolleston",
+   "link": "href=http://www.gutenberg.org/ebooks/14749"
+  },
+  {
+   "title": "A Book of Giants: Tales of Very Tall Men of Myth, Legend, History, and Science.",
+   "link": "href=http://www.gutenberg.org/ebooks/48763"
+  },
+  {
+   "title": "Curious Myths of the Middle Ages by S. Baring-Gould",
+   "link": "href=http://www.gutenberg.org/ebooks/36127"
+  },
+  {
+   "title": "Fairy Tales of the Slav Peasants and Herdsmen by Alexander Chodzko",
+   "link": "href=http://www.gutenberg.org/ebooks/25555"
+  },
+  {
+   "title": "Myths and Folk-tales of the Russians, Western Slavs, and Magyars by Jeremiah Curtin",
+   "link": "href=http://www.gutenberg.org/ebooks/50011"
+  },
+  {
+   "title": "Legends of Gods and Ghosts (Hawaiian Mythology) by W. D. Westervelt",
+   "link": "href=http://www.gutenberg.org/ebooks/39195"
+  },
+  {
+   "title": "Tales of the Enchanted Islands of the Atlantic by Thomas Wentworth Higginson",
+   "link": "href=http://www.gutenberg.org/ebooks/7098"
+  },
+  {
+   "title": "Welsh Fairy-Tales and Other Stories by P. H. Emerson",
+   "link": "href=http://www.gutenberg.org/ebooks/8675"
+  },
+  {
+   "title": "Children of the Dawn : Old Tales of Greece by E. F. Buckley",
+   "link": "href=http://www.gutenberg.org/ebooks/40476"
+  },
+  {
+   "title": "Stories from Northern Myths by Emilie K. Baker",
+   "link": "href=http://www.gutenberg.org/ebooks/46288"
+  },
+  {
+   "title": "Studies on the Legend of the Holy Grail by Alfred Trübner Nutt",
+   "link": "href=http://www.gutenberg.org/ebooks/42205"
+  },
+  {
+   "title": "The Mythology of the British Islands by Charles Squire",
+   "link": "href=http://www.gutenberg.org/ebooks/54616"
+  },
+  {
+   "title": "Legendary Heroes of Ireland by Harold F. Hughes",
+   "link": "href=http://www.gutenberg.org/ebooks/50490"
+  },
+  {
+   "title": "Hawaiian Folk Tales by Thomas G. Thrum",
+   "link": "href=http://www.gutenberg.org/ebooks/18450"
+  },
+  {
+   "title": "Myths & Legends of the Celtic Race by T. W. Rolleston",
+   "link": "href=http://www.gutenberg.org/ebooks/34081"
+  },
+  {
+   "title": "The Topaz Story Book Stories and Legends of Autumn, Hallowe'en, and Thanksgiving",
+   "link": "href=http://www.gutenberg.org/ebooks/51734"
+  },
+  {
+   "title": "Gods and Fighting Men by Lady Gregory",
+   "link": "href=http://www.gutenberg.org/ebooks/14465"
+  },
+  {
+   "title": "Legends That Every Child Should Know",
+   "link": "href=http://www.gutenberg.org/ebooks/6622"
+  },
+  {
+   "title": "Jewish Fairy Tales and Legends by Gertrude Landa",
+   "link": "href=http://www.gutenberg.org/ebooks/26711"
+  },
+  {
+   "title": "Basque Legends; With an Essay on the Basque Language by Wentworth Webster",
+   "link": "href=http://www.gutenberg.org/ebooks/34902"
+  },
+  {
+   "title": "Dutch Fairy Tales for Young Folks by William Elliot Griffis",
+   "link": "href=http://www.gutenberg.org/ebooks/7871"
+  },
+  {
+   "title": "Guernsey Folk Lore by Sir Edgar MacCulloch",
+   "link": "href=http://www.gutenberg.org/ebooks/52834"
+  },
+  {
+   "title": "Myths and Legends of California and the Old Southwest by Katharine Berry Judson",
+   "link": "href=http://www.gutenberg.org/ebooks/2503"
+  },
+  {
+   "title": "Folk-Lore and Legends: English by Charles John Tibbitts",
+   "link": "href=http://www.gutenberg.org/ebooks/47408"
+  },
+  {
+   "title": "The Indian Fairy Book by Henry Rowe Schoolcraft",
+   "link": "href=http://www.gutenberg.org/ebooks/48469"
+  },
+  {
+   "title": "Celtic Folk and Fairy Tales by Joseph Jacobs and John Dickson Batten",
+   "link": "href=http://www.gutenberg.org/ebooks/35862"
+  },
+  {
+   "title": "Grimms' Fairy Tales by Jacob Grimm and Wilhelm Grimm",
+   "link": "href=http://www.gutenberg.org/ebooks/2591"
+  },
+  {
+   "title": "Andersen's Fairy Tales by H. C. Andersen",
+   "link": "href=http://www.gutenberg.org/ebooks/1597"
+  },
+  {
+   "title": "The Legends of King Arthur and His Knights by Knowles and Malory",
+   "link": "href=http://www.gutenberg.org/ebooks/12753"
+  },
+  {
+   "title": "The Arabian Nights Entertainments by Andrew Lang",
+   "link": "href=http://www.gutenberg.org/ebooks/128"
+  },
+  {
+   "title": "Philippine Folk Tales by Mabel Cook Cole",
+   "link": "href=http://www.gutenberg.org/ebooks/12814"
+  },
+  {
+   "title": "English Fairy Tales by Joseph Jacob",
+   "link": "href=http://www.gutenberg.org/ebooks/7439"
+  },
+  {
+   "title": "Folk Tales from the Russian by Kalamatiano De Blumenthal and Verra Xenophontovna",
+   "link": "href=http://www.gutenberg.org/ebooks/12851"
+  },
+  {
+   "title": "East of the Sun and West of the Moon Old Tales from the North by Peter Christen Asbjørnsen & Jørgen Engebretsen Moe",
+   "link": "href=http://www.gutenberg.org/ebooks/30973"
+  },
+  {
+   "title": "Fairy and Folk Tales of the Irish Peasantry by W. B. Yeats",
+   "link": "href=http://www.gutenberg.org/ebooks/33887"
+  },
+  {
+   "title": "Hero-Myths & Legends of the British Race by M. I. Ebbutt",
+   "link": "href=http://www.gutenberg.org/ebooks/25502"
+  },
+  {
+   "title": "The Norwegian Fairy Book by Klara Stroebe",
+   "link": "href=http://www.gutenberg.org/ebooks/38070"
+  },
+  {
+   "title": "Japanese Fairy Tales by Grace James",
+   "link": "href=http://www.gutenberg.org/ebooks/35853"
+  },
+  {
+   "title": "American Indian Fairy Tales by W. T. Larned",
+   "link": "href=http://www.gutenberg.org/ebooks/45279"
+  },
+  {
+   "title": "Wonder Tales from Many Lands by Katharine Pyle",
+   "link": "href=http://www.gutenberg.org/ebooks/48351"
+  },
+  {
+   "title": "The Folk-Tales of the Magyars by Erdélyi, Kriza, Pap, Jones, and Kropf",
+   "link": "href=http://www.gutenberg.org/ebooks/42981"
+  },
+  {
+   "title": "The Swedish Fairy Book by Stroebe, Hood, and Martens",
+   "link": "href=http://www.gutenberg.org/ebooks/37193"
+  },
+  {
+   "title": "Welsh Folk-Lore by Elias Owen",
+   "link": "href=http://www.gutenberg.org/ebooks/20096"
+  }
+ ]
+}
+     
+    
+        //$.getJSON("new4.json", function(data) {
+        // console.log(data);
+    
+        //$.getJSON('new4.json', function(data) {
+            $.each(data.books, function(i, books) {
+                var tblRow =    "<tr><td>" + books.title +
+                                "</td><td><a target='_blank' href='"+ books.link.split('href=')[1]+"' >"+books.link.split('href=')[1]+"</a></td></tr>"
+                $(tblRow).appendTo("#userdata tbody");
+            });
+            //});
+    </script>
+     <!-- Footer-->
+     <footer class="footer bg-white small text-center text-black-50"><div class="container px-4 px-lg-5">Copyright &copy; thisispaddys.space 2021</div></footer>
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="../js/scripts.js"></script>
+     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     <!-- * *                               SB Forms JS                               * *-->
+     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<!-- VISA Tracking Code for www.thisispaddys.space --><script>(function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["a9c9e2c0-ee1b-11eb-b589-901b0edac50a"]={v:"0.3",s:"a9c9e2c0-ee1b-11eb-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("body")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["a9c9e2c0-ee1b-11eb-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=a9c9e2c0-ee1b-11eb-b589-901b0edac50a&v=")</script><!-- VISA Tracking Code for www.thisispaddys.space -->
+
+    
+</body>
+</html>

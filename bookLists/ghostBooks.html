@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="my, my life and what gets me through it" />
+        <meta name="author" content="paddy" />
+        <title>thisispaddys.space | list/books</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <body>
+        <img src="https://res.cloudinary.com/paddysplace/image/upload/c_fill,h_400,w_1319/v1627840056/banners/thisispaddys.space-books_anxyge.png" alt="">
+        <div class="featured-text text-center text-lg-left">
+
+        <h2 class="text-black mb-4">Ghost Stories</h2>
+        <h5 class="text-black mb-5"></h5>
+        </div>
+        <table id="userdata">            
+                <th>Title</th>
+                <th>Link</th>     
+        </table>
+    <script>
+            var data = {
+                
+     "books": [
+     ]
+    }
+        //$.getJSON("new4.json", function(data) {
+        // console.log(data);
+    
+        //$.getJSON('new4.json', function(data) {
+            $.each(data.books, function(i, books) {
+                var tblRow =    "<tr><td>" + books.title +
+                                "</td><td><a target='_blank' href='"+ books.link.split('href=')[1]+"' >"+books.link.split('href=')[1]+"</a></td></tr>"
+                $(tblRow).appendTo("#userdata tbody");
+            });
+            //});
+    </script>
+     <!-- Footer-->
+     <footer class="footer bg-white small text-center text-black-50"><div class="container px-4 px-lg-5">Copyright &copy; thisispaddys.space 2021</div></footer>
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="../js/scripts.js"></script>
+     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     <!-- * *                               SB Forms JS                               * *-->
+     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<!-- VISA Tracking Code for www.thisispaddys.space --><script>(function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["a9c9e2c0-ee1b-11eb-b589-901b0edac50a"]={v:"0.3",s:"a9c9e2c0-ee1b-11eb-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("body")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["a9c9e2c0-ee1b-11eb-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=a9c9e2c0-ee1b-11eb-b589-901b0edac50a&v=")</script><!-- VISA Tracking Code for www.thisispaddys.space -->
+
+    
+</body>
+</html>
