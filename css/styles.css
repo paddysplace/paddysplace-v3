@@ -11471,7 +11471,7 @@ color: white;
   .pulldown .pulldown-menu{
     position: fixed;
     
-    top: auto!important;
+    top: 70px!important;
     left: 0px!important;
     right: 0px!important;
     bottom: 0px!important;
@@ -11556,28 +11556,4 @@ color: white;
 | Slide up from bottom
 |
 */
-@-webkit-keyframes openPullDownMobile {
-  0% {
-    -webkit-transform: translate(0%, 100%);
-    transform: translate(0%, 100%);
-  }
 
-  100% {
-    -webkit-transform: translate(0%, 0%);
-    transform: translate(0%, 0%);
-  }
-}
-
-@keyframes openPullDownMobile {
-  0% {
-    -webkit-transform: translate(0%, 100%);
-    -ms-transform: translate(0%, 100%);
-    transform: translate(0%, 100%);
-  }
-
-  100% {
-    -webkit-transform: translate(0%, 0%);
-    -ms-transform: translate(0%, 0%);
-    transform: translate(0%, 0%);
-  }
-}
