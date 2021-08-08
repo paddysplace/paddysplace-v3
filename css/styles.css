@@ -11468,6 +11468,10 @@ color: white;
 
 
 @media (max-width: 550px) {
+
+table{
+  font-size: 0.7rem;
+}
   .pulldown .pulldown-menu{
     position: fixed;
     
